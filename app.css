@@ -1,6 +1,6 @@
 :root {
     --primary-color: #4ca2af;
-    --secondary-color: #f44336;
+    --secondary-color: #36abf4;
     --background-color: #f4f4f4;
     --text-color: #333;
 }
@@ -14,7 +14,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+    background: linear-gradient(to right, #3b82f6, #ffffff, #db2777);
 }
+
 
 .container {
     max-width: 800px;
@@ -72,3 +75,4 @@ input{
     input::placeholder {
         color: #999;
     }
+    
