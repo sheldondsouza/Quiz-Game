@@ -1,0 +1,26 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "choice1": "Berlin",
+        "choice2": "Madrid",
+        "choice3": "Paris",
+        "choice4": "Rome",
+        "answer": 3
+    },  
+    {
+        "question": "What is 2 + 2?",
+        "choice1": "3",
+        "choice2": "4",
+        "choice3": "5",
+        "choice4": "6",
+        "answer": 2
+    },
+    {
+        "question": "What is the largest planet in our solar system?",
+        "choice1": "Earth",
+        "choice2": "Mars",
+        "choice3": "Jupiter",
+        "choice4": "Saturn",
+        "answer": 3
+    }   
+]

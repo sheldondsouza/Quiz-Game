@@ -1,0 +1,89 @@
+.choice-container {
+    margin: 10px 0;
+    display: flex;
+    
+    padding: 5px;
+    border: 0.1rem solid rgba(86, 165, 235, 0.25);
+    border-radius: 5px;
+    background-color: #ebecf3;
+}
+.choice-container:hover {
+    border-color: hsl(188, 65%, 47%);
+    background-color: #dfe4f7;
+    cursor: pointer;
+}
+
+.choice-prefix {
+    font-weight: bold;
+    color: hsl(188, 65%, 47%);
+    margin-right: 10px;
+    flex-shrink: 0;
+    width: 50px; 
+    
+    /* Fixed width for prefix */
+
+}
+
+.choice-text {
+    display: flex;
+    margin-left: 5px;
+    color: #555;
+    flex-grow: 1; /* Allow text to take available space */
+    width: 100%; /* Ensure text takes full width */
+}
+
+.correct {
+    background-color: hsl(122, 94%, 31%); /* Light green background for correct answers */
+    border-color: #66bb6a; /* Darker green border for correct answers */
+}
+
+.incorrect {
+    background-color: hwb(354 2% 63%); /* Light red background for incorrect answers */
+    border-color: #e57373; /* Darker red border for incorrect answers */
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hud-prefix {
+    font-weight: bold;
+    font-size: 2rem;
+    color: hsl(188, 65%, 47%);
+    margin-right: 10px;
+    flex-shrink: 0;
+    width: 50px; /* Fixed width for prefix */
+}
+
+#progressBar {
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid #56a5eb;
+    overflow: hidden;
+    margin-top: 1.5rem;
+}
+#progressBarFull {
+    height: 4rem;
+    width: 0%;
+    background-color: #56a5eb;
+   
+}
+#loader{
+    border: 1.6rem solid #f3f3f3; /* Light grey border */
+    border-top: 1.6rem solid #3498db; 
+    border-radius: 50%;
+    width:12rem;
+    height:12rem;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.hidden {
+    display: none;
+}
